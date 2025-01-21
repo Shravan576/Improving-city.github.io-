@@ -89,3 +89,26 @@ blockquote {
     color: #555;
     border-radius: 5px;
 }
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.card-btn {
+    background: #ff5733;
+    color: #fff;
+    font-size: 0.9rem;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.card-btn:hover {
+    background: #c0392b;
+}
